@@ -1,3 +1,95 @@
-body {
-	background: blue;
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.col_lg_3 {
+  border: 3px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 180px;
+  margin-top: 3%;
+  font-family: Helvetica;
+  color: white;
+ }
+
+.row {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    
+      
+    
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+     
+   
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  
+  .col-md-12  {
+    width: 105.55%;
+
+  }
+  
+
+}
+
+@media (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    
+  }
+  .col-sd-12 {
+    width: 100%;
+  }
+}
+
+.o { 
+width:30%;
+border: 3px solid black; 
+position: relative;
+left:70.5% ;
+bottom:1.5%;
+margin: 0px;
+text-align: center;
+font-size: 125%;
+background-color:#33AAAA;
+}
+
+h1 {
+  font-size: 175%;
+  font-family: Arial,Helvetica,sans-serif;
+  text-align: center;
+}
+.b {
+   text-align:left;
+   margin: 3%;
+
 }
